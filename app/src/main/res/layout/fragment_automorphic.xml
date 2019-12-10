@@ -29,6 +29,7 @@
             android:background="@color/colorAccent"
             android:textSize="30sp"
             android:layout_margin="20dp"
+            android:inputType="number"
             android:gravity="center"/>
 
         <Button

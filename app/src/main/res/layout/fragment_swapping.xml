@@ -29,6 +29,7 @@
         android:hint="Enter First Number"
         android:background="@color/colorAccent"
         android:textSize="30sp"
+        android:inputType="number"
         android:layout_margin="20dp"
         android:gravity="center"/>
 
@@ -37,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etnumber2"
+        android:inputType="number"
         android:hint="Enter Second Number"
         android:background="@color/colorAccent"
         android:textSize="30sp"

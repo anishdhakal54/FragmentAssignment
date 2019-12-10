@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.anish.fragmentassignment.R;
 
@@ -21,6 +22,7 @@ import com.anish.fragmentassignment.R;
 public class SwappingFragment extends Fragment implements View.OnClickListener {
     private EditText etnumber1,etnumber2;
     private Button btnSwap;
+    private TextView tvResult;
 
     public SwappingFragment() {
         // Required empty public constructor
@@ -35,6 +37,7 @@ public class SwappingFragment extends Fragment implements View.OnClickListener {
         etnumber1 = view.findViewById(R.id.etnumber1);
         etnumber2=view.findViewById(R.id.etnumber2);
         btnSwap = view.findViewById(R.id.btnSwap);
+        tvResult=view.findViewById(R.id.tvResult);
 
         btnSwap.setOnClickListener(this);
 
@@ -43,6 +46,17 @@ public class SwappingFragment extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
+        int num1; int num2;
+
+        num1 = Integer.parseInt(etnumber1.getText().toString());
+        num2= Integer.parseInt(etnumber2.getText().toString());
+
+        num1=num1+num2;//a=30 (10+20)
+        num2=num1-num2;//b=10 (30-20)
+        num1=num1-num2;//a=20 (30-10)
+
+        tvResult.setText("The first number  is:"+num1+" and second number is:"+num2);
+
 
     }
 }
