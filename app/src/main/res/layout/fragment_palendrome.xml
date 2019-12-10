@@ -27,6 +27,7 @@
         android:id="@+id/etnumber"
         android:hint="Enter Number"
         android:background="@color/colorAccent"
+        android:inputType="number"
         android:textSize="30sp"
         android:layout_margin="20dp"
         android:gravity="center"/>
