@@ -20,31 +20,38 @@
         ></TextView>
 
 
+
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etnumber1"
-        android:hint="Enter Number"
-        android:textSize="20sp"
-        android:layout_marginTop="20dp"
-        android:background="@color/colorAccent"/>
+        android:hint="Enter First Number"
+        android:background="@color/colorAccent"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:gravity="center"/>
+
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etnumber2"
-        android:hint="Enter Number"
-        android:textSize="20sp"
-        android:layout_marginTop="20dp"
-        android:background="@color/colorAccent"/>
+        android:hint="Enter Second Number"
+        android:background="@color/colorAccent"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:gravity="center"/>
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnSwap"
-        android:text="Automorphic Number"
+        android:text="Calculate"
+        android:background="@color/colorblue"
+        android:textColor="@color/colorwhite"
         android:textSize="20sp"
+        android:layout_gravity="center"
         android:layout_margin="10dp"/>
-
-
 
 </LinearLayout>

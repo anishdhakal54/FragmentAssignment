@@ -16,6 +16,7 @@
         android:textSize="40sp"
         android:layout_marginTop="10sp"
         android:background="@color/colorPrimary"
+        android:gravity="center"
 
         ></TextView>
 
@@ -26,18 +27,21 @@
             android:hint="Enter Number"
             android:background="@color/colorAccent"
             android:textSize="30sp"
+        android:gravity="center"
             android:layout_margin="20dp"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnArmstrong"
-            android:text="Armstrong Number"
+            android:text="Calculate"
             android:background="@color/colorblue"
             android:textColor="@color/colorwhite"
             android:textSize="20sp"
             android:layout_gravity="center"
             android:layout_margin="10dp"/>
+
+
 
 
 
