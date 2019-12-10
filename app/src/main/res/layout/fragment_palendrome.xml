@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
     tools:context=".fragments.PalendromeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text=" AUTOMORPHIC NUMBER!!"
+        android:textColor="@color/colorwhite"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        android:background="@color/colorPrimary"
 
-</FrameLayout>
+        ></TextView>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etnumber"
+        android:hint="Enter Number"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncalcautomorphic"
+        android:text="Automorphic Number"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+
+
+</LinearLayout>

@@ -1,18 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorblue"
+            android:text="Area Of Circle"
+            android:layout_margin="10dp"
+            android:textSize="30sp"
+            android:textColor="@color/colorwhite"
+            android:id="@+id/btnareaofcircle"
+            android:padding="10dp"
+            />
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ArmStrong Number"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="30sp"
+            android:id="@+id/btnarmstrong"
+            android:background="@color/colorblue"
+            android:textColor="@color/colorwhite"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"/>
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Automorphic Number"
+            android:background="@color/colorblue"
+            android:textColor="@color/colorwhite"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:padding="10sp"
+            android:id="@+id/btnautomorphic"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"/>
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10sp"
+            android:text="Palindrome Number"
+            android:background="@color/colorblue"
+            android:textColor="@color/colorwhite"
+            android:textSize="30sp"
+            android:id="@+id/btnpalindrome"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"/>
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10sp"
+            android:text="Simple Interest"
+            android:background="@color/colorblue"
+            android:textColor="@color/colorwhite"
+            android:textSize="30sp"
+            android:id="@+id/btnsimpleinterest"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"/>
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10sp"
+            android:layout_height="wrap_content"
+            android:text="Swap Number"
+            android:background="@color/colorblue"
+            android:textColor="@color/colorwhite"
+            android:textSize="30sp"
+            android:id="@+id/btnswap"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"/>
+
+
+
+
+</LinearLayout>
