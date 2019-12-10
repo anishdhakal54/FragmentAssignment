@@ -49,6 +49,7 @@
     android:id="@+id/tvResult"
     android:textColor="@color/colorwhite"
     android:textSize="30sp"
+    android:gravity="center"
     />
 
 

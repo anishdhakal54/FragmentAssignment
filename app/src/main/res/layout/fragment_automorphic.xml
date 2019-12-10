@@ -42,5 +42,15 @@
             android:layout_gravity="center"
             android:layout_margin="10dp"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvResult"
+            android:textColor="@color/colorwhite"
+            android:textSize="30sp"
+            android:gravity="center"
+            />
+
+
 
 </LinearLayout>
