@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,6 +46,11 @@ public class ArmstrongFragment extends Fragment implements View.OnClickListener 
 
     @Override
     public void onClick(View v) {
+        if(TextUtils.isEmpty(etnumber.getText())) {
+            etnumber.setError("please enter a Number");
+            return;
+        }
+
         int num = Integer.parseInt(etnumber.getText().toString());
         int temp=num;
         String t=temp+"";
