@@ -112,8 +112,6 @@ public class MainActivity extends AppCompatActivity {
                 FragmentManager fragmentManager = getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction =fragmentManager.beginTransaction();
 
-
-
                 SwappingFragment swappingFragment= new SwappingFragment();
                 fragmentTransaction.replace(R.id.fragView,swappingFragment);
                 fragmentTransaction.commit();

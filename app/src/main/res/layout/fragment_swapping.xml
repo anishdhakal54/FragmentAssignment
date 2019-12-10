@@ -23,7 +23,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etInterest"
+        android:id="@+id/etnumber1"
         android:hint="Enter Number"
         android:textSize="20sp"
         android:layout_marginTop="20dp"
@@ -31,7 +31,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etRate"
+        android:id="@+id/etnumber2"
         android:hint="Enter Number"
         android:textSize="20sp"
         android:layout_marginTop="20dp"
@@ -40,7 +40,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btncalcautomorphic"
+        android:id="@+id/btnSwap"
         android:text="Automorphic Number"
         android:textSize="20sp"
         android:layout_margin="10dp"/>
