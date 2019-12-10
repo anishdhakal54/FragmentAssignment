@@ -28,6 +28,7 @@
         android:background="@color/colorAccent"
         android:textSize="30sp"
         android:layout_margin="20dp"
+        android:inputType="numberDecimal"
         android:gravity="center"/>
 
     <EditText
@@ -38,13 +39,15 @@
         android:background="@color/colorAccent"
         android:textSize="30sp"
         android:layout_margin="20dp"
+        android:inputType="numberDecimal"
         android:gravity="center"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etInterest"
+        android:id="@+id/etTime"
         android:hint="Enter Number"
+        android:inputType="numberDecimal"
         android:background="@color/colorAccent"
         android:textSize="30sp"
         android:layout_margin="20dp"
