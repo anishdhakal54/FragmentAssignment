@@ -15,9 +15,7 @@
         android:textSize="40sp"
         android:gravity="center"
         android:layout_marginTop="10sp"
-        android:background="@color/colorPrimary"
-
-        ></TextView>
+        android:background="@color/colorPrimary"></TextView>
 
 
 

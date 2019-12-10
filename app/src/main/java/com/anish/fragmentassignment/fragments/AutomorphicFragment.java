@@ -38,7 +38,7 @@ public class AutomorphicFragment extends Fragment implements View.OnClickListene
         View view = inflater.inflate(R.layout.fragment_automorphic, container, false);
         etnumber = view.findViewById(R.id.etnumber);
         btncalcautomorphic = view.findViewById(R.id.btncalcautomorphic);
-
+        tvResult=view.findViewById(R.id.tvResult);
         btncalcautomorphic.setOnClickListener(this);
 
         return view;
@@ -48,26 +48,25 @@ public class AutomorphicFragment extends Fragment implements View.OnClickListene
     @Override
     public void onClick(View v) {
         if(TextUtils.isEmpty(etnumber.getText())) {
-            etnumber.setError("please enter a Number");
+            etnumber.setError("please enter first Number");
             return;
         }
+
         int num = Integer.parseInt(etnumber.getText().toString());
-        int div, c=0, sq, rem;
-        c=0;
-        for (div=num;div>0;div=div/10){
+        int div, c = 0, sq, rem;
+        c = 0;
+        for (div = num; div > 0; div = div / 10) {
             c++;
         }
-        div=(int)Math.pow(10,c);
-        sq = num*num;
-        rem = sq%div;
+        div = (int) Math.pow(10, c);
+        sq = num * num;
+        rem = sq % div;
 
-        if (rem==num){
-            tvResult.setText("The give number is AUTOMORPHICnumber");
-        }else {
+        if (rem == num) {
+        tvResult.setText("This number is AUTOMORPHIC NUMBER");
+        } else {
+            tvResult.setText("The number is not a Automorphic number");
+        }
 
-            tvResult.setText("The given is NOT AUTOMORPHIC number ");        }
-
-    }
-
-    }
+    }}
 
