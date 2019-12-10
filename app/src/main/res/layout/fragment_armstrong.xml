@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=" AUTOMORPHIC NUMBER!!"
+        android:text=" ARMSTRONG NUMBER!!"
         android:textColor="@color/colorwhite"
         android:textSize="40sp"
         android:layout_marginTop="10sp"
@@ -31,7 +31,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btncalcarmstrong"
+            android:id="@+id/btnArmstrong"
             android:text="Armstrong Number"
             android:background="@color/colorblue"
             android:textColor="@color/colorwhite"
